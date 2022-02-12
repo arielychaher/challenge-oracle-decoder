@@ -63,10 +63,3 @@ btnDesencriptar.addEventListener("click", function(e){
         var cont = entrada2.valor;
         navegante_portapapeles_escribirtexto(cont);
     })*/
-
-    /*function copiarTexto() {
-        var textoCopiado = document.getElementById("msg");
-        textoCopiado.seleccionar();
-        navegante_portapapeles_escribirTexto(textoCopiado.valor);
-
-}*/
