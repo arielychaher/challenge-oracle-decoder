@@ -60,6 +60,5 @@ btnDesencriptar.addEventListener("click", function(e){
     btn.addEventListener("click", funcion e(){
         entrada2.foco();
         entrada2.seleccionar();
-        var cont = entrada2.valor;
-        navegante_portapapeles_escribirtexto(cont);
-    })*/
+        var cont = entrada2.valor;*/
+       
