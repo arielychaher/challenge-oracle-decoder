@@ -55,10 +55,44 @@ btnDesencriptar.addEventListener("click", function(e){
  
     })
 
-    //portapeles verlo bien
-    /*var btn = document.querySelector("#msg");
-    btn.addEventListener("click", funcion e(){
-        entrada2.foco();
-        entrada2.seleccionar();
-        var cont = entrada2.valor;*/
+//portapepeles
+/*var textoSeleccionado = navigator.clipboard.writeText(newClipText);
+function seleccion(newClipText) {
+    return textoSeleccionado;
+}
+seleccion(textoSeleccionado);
+var textoSeleccionado = document.querySelector("#msg");
+navigator.clipboard.writeText(textoSeleccionado.value);*/
+
+//portapepeles
+/*
+
+function seleccionarElemento(){
+    var mensajeEncriptado = document.querySelector("#msg"); 
+    navigator.clipboard.writeText(mensajeEncriptado.value)
        
+}
+
+seleccionarElemento().addEventListener("click", mensajeEncriptado
+){
+    seleccionarElemento();
+}*/
+function copiarAlPortapapeles(){
+    var mensajeEncriptado = document.querySelector("#msg"); 
+    mensajeEncriptado.select();
+    //mensajeEncriptado.setSelectionRange(0, 99999);
+    document.clipboard("mensajeEncriptado");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
